@@ -7,7 +7,7 @@ import tkinter as tk
 from tkinter import ttk
 
 def verifica_risco_credito(historico, divida, garantia, renda):
-    path = 'C:\\Users\\Usuario\\PROGRAMACAO_CENTRAL\\python\\outros\\CURSO_IA\\CONTEUDO_BAIXADO\\Bases de dados-20240902T151609Z-001\\Bases de dados\\risco_credito.csv'
+    path = 'C:\\Users\\Renan\\PROGRAMACAO_CENTRAL\\CURSO-IA\\CONTEUDO_BAIXADO-20250208T003706Z-001\\CONTEUDO_BAIXADO\\Bases de dados-20240902T151609Z-001\\Bases de dados\risco_credito.csv'
     base_risco_credito = pd.read_csv(path)
 
 
